@@ -864,6 +864,9 @@ Asteroid.prototype._tryResumeLogin = function () {
 				}
 			});
 			return deferred.promise;
+		})
+		.catch(function(){
+			//pass
 		});
 };
 
